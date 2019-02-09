@@ -1,0 +1,1 @@
+As a battleship player, I want the default play to be on a 5*5 board with 3 ships --> 1*1 square, 1*2 square, 1*3
