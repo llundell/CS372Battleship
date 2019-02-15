@@ -23,3 +23,5 @@
 (4) As a player, I want to play with a mouse.
 
 (2) As a player, I want to choose the color of my board and ships.
+
+(5) As a player, I'd like to be able to play a web based game
