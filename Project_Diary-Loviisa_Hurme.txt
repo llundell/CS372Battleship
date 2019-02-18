@@ -6,6 +6,22 @@ Start of the project. Thinking what is important for battleship game
 and writing user story cards.
 
 Sunday 2/10
+Reading assignment and links.
 Thinking order for the cards.
 Cloning git repository and making diary file.
 Writing first diary entries.
+
+Monday 2/11
+Thinking difficulty points and final order.
+Listening other groups priorities and getting new ideas?
+
+
+Sunday 2/17
+Thinking with Laura how we do things and what is important for the task.
+Decided to use Trello as Kanban.
+Made Trello board with Agile tools power-up.
+Devided table in 5 steps: Backlog, This sprint, Doing, Review and Done.
+https://trello.com/b/QGpA2VEH/cs372-battleship
+
+
+
