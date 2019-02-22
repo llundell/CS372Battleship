@@ -24,4 +24,7 @@ Devided table in 5 steps: Backlog, This sprint, Doing, Review and Done.
 https://trello.com/b/QGpA2VEH/cs372-battleship
 
 
-
+Tuesday 2/19
+Decided that one sprint is 3 days long.
+Started first sprint and decided to have 2 first user stories in this sprint.
+Started doing rist user story with pair programming.
