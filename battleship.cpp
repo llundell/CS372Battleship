@@ -1,0 +1,51 @@
+/*
+Laura Lundell
+Loviisa Hurme
+Created: 19 February 2019
+Updated: 19 February 2019
+CS372 Software Development
+Battleship game
+
+*/
+
+#include <iostream>
+using std::cout;
+using std::endl;
+#include <vector>
+using std::vector;
+
+
+vector<int> createBoard(int row, int col)
+{
+	int boardDim = row*col;
+	vector<int> board(boardDim, 0);
+	for(vector<int>::iterator it = board.begin(); it != board.end(); ++it)
+	{
+		cout<< " " << *it;
+	}
+	cout<< "\n";
+	return board;
+}
+
+int main()
+{
+	int dim_x = 5;
+	int dim_y = 5;
+	createBoard(dim_x,dim_y);
+
+}
+
+
+// #include "catch2.hpp"
+//
+// TEST_CASE("Battleship board is vector of 25 ints for represent 5*5")
+// {
+// 	REQUIRE(createBoard(5,5) = board.size()==25)
+// }
+
+// TEST_CASE("Creates ship of size 1, 2, or 3")
+// {
+// 	REQUIRE(createShip(1) = vector.size() == 1)
+// 	REQUIRE(createShip(2) = vector.size() == 2)
+// 	REQUIRE(createShip(3) = vector.size() == 3)
+// }

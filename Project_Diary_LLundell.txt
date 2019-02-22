@@ -1,4 +1,5 @@
 Project Diary
+Trello: https://trello.com/b/QGpA2VEH/cs372-battleship
 
 8 Feb 19
 Drafted user stories--
@@ -27,3 +28,16 @@ Rotate a board?
 
 Other thoughts:
 Implement by test driven development -- why do you need a board? Makes you question
+
+17 Feb 19
+Discussing how best to prioritize the User Stories
+Reviewing Agile Principles
+Decided to use Trello board to organize our work, as a Kanban board and using Agile Power-up option.
+We added "This Sprint" to our work categories to implement a feature of development in Scrum.  (3  (3))
+
+19 Feb 19
+Started first sprint today and decided to keep it to 3 days long, with the first 2 user stories we prioritized.
+Started Pair Programming: Loviisa was the observer and I was the driver for this round.
+
+We wrote the test first, but once we got the code to compile to simply create a board, it wouldn't compile with the test.
+It's likely a syntax issue that we'll have to iron out.
