@@ -38,6 +38,17 @@ We added "This Sprint" to our work categories to implement a feature of developm
 19 Feb 19
 Started first sprint today and decided to keep it to 3 days long, with the first 2 user stories we prioritized.
 Started Pair Programming: Loviisa was the observer and I was the driver for this round.
+Loviisa mastered the whiteboard sketches (we both decided we need to own one personally) while I plunked away at the code.
 
 We wrote the test first, but once we got the code to compile to simply create a board, it wouldn't compile with the test.
 It's likely a syntax issue that we'll have to iron out.
+
+21 Feb 19
+Tried dozens of configurations for the test case for vector--
+
+22 Feb 19
+Created outline for our presentation
+
+23 Feb 19
+Finally got the first test to compile! It fails but at least it compiles.
+Figured out I had to create a vector in the test case, set the size to 25 then check if it equaled the vector size created in the function.
