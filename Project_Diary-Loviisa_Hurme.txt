@@ -27,4 +27,12 @@ https://trello.com/b/QGpA2VEH/cs372-battleship
 Tuesday 2/19
 Decided that one sprint is 3 days long.
 Started first sprint and decided to have 2 first user stories in this sprint.
-Started doing rist user story with pair programming.
+Started doing first user story with pair programming.
+
+Thursday 2/21
+Trying to figure out why our test for vector is not working.
+Decided to continue same things second sprint and added also third user story.
+
+Friday 2/22
+More trying to figure out why our test is not working.
+Started to think what we need to our presentation slides.

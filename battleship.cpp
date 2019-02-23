@@ -27,6 +27,13 @@ vector<int> createBoard(int row, int col)
 	return board;
 }
 
+
+vector<int> placeShip(int shipSize, auto &board){
+	
+}
+
+
+
 int main()
 {
 	int dim_x = 5;
@@ -37,7 +44,7 @@ int main()
 
 
 // #include "catch2.hpp"
-//
+
 // TEST_CASE("Battleship board is vector of 25 ints for represent 5*5")
 // {
 // 	REQUIRE(createBoard(5,5) = board.size()==25)
