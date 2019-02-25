@@ -40,3 +40,8 @@ Started to think what we need to our presentation slides.
 Saturday 2/23
 More pairprogramming as Laura being driver and I observer.
 Fixing board creating. Changed function for creating board to be class insted.
+
+Monday 2/25
+Started to use branching to prevent dealing with git conflicts almost every push/pull.
+Started new sprint and updated trello kanban: kept all how they were.
+Showing how to merge branched to Laura.
