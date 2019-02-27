@@ -1,4 +1,5 @@
 * README
+
 CS372 Project to create the game of Battleship using the concepts of 
 * agile project planning, requirements
 * pair programming
