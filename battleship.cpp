@@ -10,7 +10,10 @@ Battleship game
 
 #include "battleship.h"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdc31e5a59308541722b89532e06225f347bc68f
 
 int Board::getRow()const
 {
@@ -38,11 +41,15 @@ Board::Board() //Default constructor
 vector<vector<int> > Board::initializeBoard(int row, int col)
 {
 	vector<vector<int> > board(row, vector<int>(col,0));
+<<<<<<< HEAD
 	return board;
 }
 
 void Board::printBoard(vector<vector<int> > &board)
 {
+=======
+
+>>>>>>> cdc31e5a59308541722b89532e06225f347bc68f
 	for(int r = 0; r < board.size(); ++r)
 	{
 		cout<<"\n";
@@ -52,8 +59,15 @@ void Board::printBoard(vector<vector<int> > &board)
 		}
 	}
 	cout<<"\n";
+<<<<<<< HEAD
 }
 
+=======
+	return board;
+}
+//
+// printBoard()
+>>>>>>> cdc31e5a59308541722b89532e06225f347bc68f
 
 vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
 {
@@ -70,9 +84,13 @@ vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
 int main()
 {
 	Board player1;
+<<<<<<< HEAD
 	vector<vector<int> > board = player1.initializeBoard(5,5);
 	player1.printBoard(board);
 	player1.placeShip(1,board);
 	player1.printBoard(board);
+=======
+	player1.initializeBoard(5,5);
+>>>>>>> cdc31e5a59308541722b89532e06225f347bc68f
 	return 0;
 }
