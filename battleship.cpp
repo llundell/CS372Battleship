@@ -57,13 +57,27 @@ void Board::printBoard(vector<vector<int> > &board)
 
 vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
 {
-	for(int r = 0; r < board.size(); ++r)
-	{
-		for(int c = 0; c < shipSize+1; ++c)
-		{
-			board[r][c];
-		}
+	// for(int r = 0; r < shipSize; ++r)
+	// {
+	// 	for(int c = 0; c < shipSize; ++c)
+	// 	{
+	if(shipSize == 1){
+		board.at(0).at(0) = _occupied;
 	}
+
+	if(shipSize == 2){
+		board.at(2).at(2) = _occupied;
+		board.at(2).at(3) = _occupied;
+	}
+
+	if(shipSize == 3){
+		board.at(4).at(2) = _occupied;
+		board.at(4).at(3) = _occupied;
+		board.at(4).at(4) = _occupied;
+	}
+
+	// 	}
+	// }
 	return board;
 }
 
@@ -73,6 +87,8 @@ int main()
 	vector<vector<int> > board = player1.initializeBoard(5,5);
 	player1.printBoard(board);
 	player1.placeShip(1,board);
+	player1.placeShip(2,board);
+	player1.placeShip(3,board);
 	player1.printBoard(board);
 	return 0;
 }
