@@ -8,19 +8,8 @@ Battleship game
 
 */
 
-
 #include "battleship.h"
 
-// vector<int> createBoard(int row, int col)
-// {
-// 	int boardDim = row*col;d
-// 	vector<int> board(boardDim,0);
-// 	for(vector<int>::iterator it = board.begin(); it != board.end(); ++it)
-// 	{
-// 	}
-// 	cout<< endl;
-//     return board;
-// }
 
 int Board::getRow()const
 {
@@ -45,11 +34,22 @@ Board::Board() //Default constructor
 	int _col = 5;
 }
 
-// Board::initializeBoard(int row, int col)
-// {
-// 	vector<vector<int>> board;
-// 	for(int x=0; )
-// }
+void Board::initializeBoard(int row, int col)
+{
+	vector<vector<int> > board(row, vector<int>(col,0));
+
+	for(int r = 0; r < board.size(); ++r)
+	{
+		cout<<"\n";
+		for(int c = 0; c < board[r].size(); ++c)
+		{
+			cout << board[r][c];
+		}
+	}
+	cout<<"\n";
+}
+//
+// printBoard()
 
 //vector<int> placeShip(int shipSize, auto &board){
 //
@@ -57,8 +57,7 @@ Board::Board() //Default constructor
 
 int main()
 {
-	int dim_x = 5;
-	int dim_y = 5;
-	return 0;
 	Board player1;
+	player1.initializeBoard(5,5);
+	return 0;
 }
