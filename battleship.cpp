@@ -34,7 +34,7 @@ Board::Board() //Default constructor
 	int _col = 5;
 }
 
-void Board::initializeBoard(int row, int col)
+vector<vector<int> > Board::initializeBoard(int row, int col)
 {
 	vector<vector<int> > board(row, vector<int>(col,0));
 
@@ -47,6 +47,7 @@ void Board::initializeBoard(int row, int col)
 		}
 	}
 	cout<<"\n";
+	return board;
 }
 //
 // printBoard()
