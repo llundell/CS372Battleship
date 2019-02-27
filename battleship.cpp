@@ -8,19 +8,9 @@ Battleship game
 
 */
 
-
 #include "battleship.h"
 
-// vector<int> createBoard(int row, int col)
-// {
-// 	int boardDim = row*col;d
-// 	vector<int> board(boardDim,0);
-// 	for(vector<int>::iterator it = board.begin(); it != board.end(); ++it)
-// 	{
-// 	}
-// 	cout<< endl;
-//     return board;
-// }
+
 
 int Board::getRow()const
 {
@@ -45,20 +35,44 @@ Board::Board() //Default constructor
 	int _col = 5;
 }
 
-// Board::initializeBoard(int row, int col)
-// {
-// 	vector<vector<int>> board;
-// 	for(int x=0; )
-// }
+vector<vector<int> > Board::initializeBoard(int row, int col)
+{
+	vector<vector<int> > board(row, vector<int>(col,0));
+	return board;
+}
 
-//vector<int> placeShip(int shipSize, auto &board){
-//
-//}
+void Board::printBoard(vector<vector<int> > &board)
+{
+	for(int r = 0; r < board.size(); ++r)
+	{
+		cout<<"\n";
+		for(int c = 0; c < board[r].size(); ++c)
+		{
+			cout << board[r][c];
+		}
+	}
+	cout<<"\n";
+}
+
+
+vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
+{
+	for(int r = 0; r < board.size(); ++r)
+	{
+		for(int c = 0; c < shipSize+1; ++c)
+		{
+			board[r][c];
+		}
+	}
+	return board;
+}
 
 int main()
 {
-	int dim_x = 5;
-	int dim_y = 5;
-	return 0;
 	Board player1;
+	vector<vector<int> > board = player1.initializeBoard(5,5);
+	player1.printBoard(board);
+	player1.placeShip(1,board);
+	player1.printBoard(board);
+	return 0;
 }

@@ -20,8 +20,9 @@ class Board
 public:
 	Board();
 	Board(vector<vector<int>> board);
-	void initializeBoard(int row, int col);
-	void placeShip(int x, int y, int shipSize);
+	vector<vector<int> > initializeBoard(int row, int col);
+	void printBoard(vector<vector<int> > &board);
+	vector<vector<int> > placeShip(int shipSize, vector<vector<int> > &board);
 	int getRow()const;
 	void setRow(int row);
 	int getCol()const;
