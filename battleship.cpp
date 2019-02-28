@@ -56,13 +56,25 @@ void Board::printBoard(vector<vector<int> > &board)
 
 vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
 {
-
-	for(int r = 0; r < shipSize; r++){
-		board.at(shipSize).at(r) = _occupied;
+	int a;
+	int b;
+	cout << "Where you want put your size " << shipSize << " ship?\n";
+	cin >> a;
+	cin >> b;
+	for(int i = 0; i < shipSize; i++){
+		board.at(a).at(b) = _occupied;
+		b++;
 	}
+
+	// for(int r = 0; r < shipSize; r++){
+	// 	board.at(shipSize).at(r) = _occupied;
+	// }
 
 	return board;
 }
+
+
+
 
 int main()
 {
