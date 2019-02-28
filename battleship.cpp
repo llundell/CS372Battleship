@@ -52,32 +52,15 @@ void Board::printBoard(vector<vector<int> > &board)
 	}
 	cout<<"\n";
 }
-//
-// printBoard()
+
 
 vector<vector<int> > Board::placeShip(int shipSize, vector<vector<int> > &board)
 {
-	// for(int r = 0; r < shipSize; ++r)
-	// {
-	// 	for(int c = 0; c < shipSize; ++c)
-	// 	{
-	if(shipSize == 1){
-		board.at(0).at(0) = _occupied;
+
+	for(int r = 0; r < shipSize; r++){
+		board.at(shipSize).at(r) = _occupied;
 	}
 
-	if(shipSize == 2){
-		board.at(2).at(2) = _occupied;
-		board.at(2).at(3) = _occupied;
-	}
-
-	if(shipSize == 3){
-		board.at(4).at(2) = _occupied;
-		board.at(4).at(3) = _occupied;
-		board.at(4).at(4) = _occupied;
-	}
-
-	// 	}
-	// }
 	return board;
 }
 
