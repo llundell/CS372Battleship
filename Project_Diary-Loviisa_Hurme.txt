@@ -52,3 +52,4 @@ Board is finally printing!!!
 
 Wednesday 2/27
 Doing slides and thinkin if we can add ships to our board.
+Fixing ship placing into board.
