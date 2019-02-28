@@ -1,7 +1,8 @@
-Project Diary
+Laura Lundell, CS372 Battleship Project Diary
 Trello: https://trello.com/b/QGpA2VEH/cs372-battleship
 
 8 Feb 19
+Stakeholders: Game users, Loviisa & I, Dr. Hartman
 Drafted user stories--
 We started getting into the details before realizing we should write down the
 basics of the game requirements. [20 minutes]
@@ -27,11 +28,13 @@ Web based?
 Rotate a board?
 
 Other thoughts:
-Implement by test driven development -- why do you need a board? Makes you question
+Implement by test driven development -- why do you need a board?
+Question before building
 
 17 Feb 19
-Discussing how best to prioritize the User Stories
-Reviewing Agile Principles
+Discussing how best to prioritize the User Stories and tried to put on our "User" hat.
+We often found it difficult to separate the user and programmer roles but did our best to stay objective.
+Reviewed Agile Principles to guide our planning.
 Decided to use Trello board to organize our work, as a Kanban board and using Agile Power-up option.
 We added "This Sprint" to our work categories to implement a feature of development in Scrum.  (3  (3))
 
@@ -45,10 +48,31 @@ It's likely a syntax issue that we'll have to iron out.
 
 21 Feb 19
 Tried dozens of configurations for the test case for vector--
+Spent lots of time debugging and reached out on Discord but got minimal guidance.
 
 22 Feb 19
 Created outline for our presentation
+Decided to change our board vector to a nested vector
 
 23 Feb 19
 Finally got the first test to compile! It fails but at least it compiles.
 Figured out I had to create a vector in the test case, set the size to 25 then check if it equaled the vector size created in the function.
+Then, we decided to change the structure of the code to make it cleaner, using a Board class to create the board and related functions.
+
+25 Feb 19
+Loviisa kept getting merge conflicts so she created a branch just for her diary entry.
+Git branching:
+git checkout -b 'feature/diary-entry'
+The first add/commit/push requires a different push script, but the command line gives it to you on your first push.
+
+26 Feb 19
+More pair programming - mostly me coding and Loviisa assisting with things to try, how to implement concepts, and Stack Overflow searches when I got stuck.
+We successfully got the board to print but the test isn't working quite yet.
+
+27 Feb 19
+Merged the fix/board-test with master. Loviisa showed me how to merge the branches on Github.
+
+Final thoughts:
+This project gave an eye-opening on software development and how lengthy it can be.
+There was a lot of time planning, evaluating, debugging, learning, teaching, Google searching, fixing merge conflicts, etc.
+In hindsight, I would 
