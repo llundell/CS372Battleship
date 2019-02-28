@@ -12,6 +12,7 @@ Battleship game
 #include <iostream>
 using std::cout;
 using std::endl;
+using std::cin;
 #include <vector>
 using std::vector;
 
