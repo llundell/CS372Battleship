@@ -75,4 +75,4 @@ Merged the fix/board-test with master. Loviisa showed me how to merge the branch
 Final thoughts:
 This project gave an eye-opening on software development and how lengthy it can be.
 There was a lot of time planning, evaluating, debugging, learning, teaching, Google searching, fixing merge conflicts, etc.
-In hindsight, I would 
+In hindsight, I would have switched roles with Loviisa more frequently in pair programming.
